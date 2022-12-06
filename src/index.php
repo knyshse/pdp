@@ -1,3 +1,4 @@
 <?php
-die(888);
-echo "Hello there, this is a PHP Apache container";
+for ($i = 1; $i <= 6; $i++) {
+    echo "{$i}. Hello there, this is a PHP Apache container<br>";
+}
